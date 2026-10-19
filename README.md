@@ -1,2 +1,36 @@
-# Weather-Forecast-App
-A responsive weather application using JavaScript and a weather API to display current conditions and forecast data.
+# Weather Forecast App
+
+Search a city and view current conditions plus a 3-day forecast. Uses free geocoding and forecast endpoints.
+
+## Tech stack
+HTML, CSS, JavaScript, Open-Meteo API
+
+## Features
+- A working core implementation with a simple, usable interface or CLI.
+- Input validation and basic error handling where appropriate.
+- Source code organized for learning and extension.
+
+## Getting started
+
+Choose the instructions for this project's stack.
+
+1. Install JDK 17+ and Maven.
+2. Run from this directory:
+   ```bash
+   mvn package
+   mvn exec:java -Dexec.mainClass=dev.student.LibraryApp
+   ```
+   If the Maven exec plugin is not configured in your environment, compile and run with your IDE, or use:
+   ```bash
+   javac -d out src/main/java/dev/student/LibraryApp.java
+   java -cp out dev.student.LibraryApp
+   ```
+
+## Project structure
+
+The source files are kept in the root directory or in `public/`, `templates/`, or the conventional language-specific folders. Generated local databases, secrets, and dependency folders are excluded with `.gitignore` where applicable.
+
+## Notes
+- These are intermediate-level starter repositories intended for learning and customization. Review, test, and personalize them before presenting them as your own work.
+- Never commit API keys, passwords, tokens, or private user data.
+- Some projects use external APIs and therefore require an internet connection.

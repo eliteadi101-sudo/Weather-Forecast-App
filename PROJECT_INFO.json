@@ -1,0 +1,5 @@
+{
+  "name": "Weather Forecast App",
+  "stack": "HTML, CSS, JavaScript, Open-Meteo API",
+  "description": "Search a city and view current conditions plus a 3-day forecast. Uses free geocoding and forecast endpoints."
+}
